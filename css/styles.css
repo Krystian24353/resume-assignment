@@ -2,7 +2,13 @@ img {
     width: 300px;
 }
 body {
-    background-color: beige;
+background-color: maroon;
     text-align: center;
     font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color: antiquewhite;
+ 
+    
+    
 }
