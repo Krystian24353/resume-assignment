@@ -1,14 +1,78 @@
-img {
-    width: 300px;
-}
+/*COLOR PALETTE
+#F7FFF7
+#343434
+#2F3061
+#FFE660
+#A1C6D7
+*/
+
+
+/*GLOBAL STYLES*/
 body {
-background-color: maroon;
-    text-align: center;
-    font-size: large;
-    font-style: italic;
-    font-weight: bold;
-    color: antiquewhite;
- 
-    
-    
+color: #343434;
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+img {
+width: 300px;
+}
+a {
+color: #F7FFF7 ;
+}
+a:hover {
+text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+/*PROFILE         
+*/
+header {
+background: #2F3061;
+color: #F7FFF7;
+}
+
+
+/*PROJECT */
+.projects {
+background: #F7FFF7;
+}
+.projects a {
+    color: #2F3061;
+}
+.projects .btn {
+color: #F7FFF7;
+background: #2F3061;
+text-decoration: none;
+padding: 8px;
+border-radius: 4px;
+display: inline-block;
+
+}
+.projects .btn:hover {
+    background: rgb(47, 48, 97, 80%);
+}
+
+
+/*Work experience*/
+.work-experience {
+background:#A1C6D7 ;
+}
+
+
+/*Education*/
+
+
+/*Contact Info*/
+footer {
+background:#343434 ;
+color: #F7FFF7;
 }
